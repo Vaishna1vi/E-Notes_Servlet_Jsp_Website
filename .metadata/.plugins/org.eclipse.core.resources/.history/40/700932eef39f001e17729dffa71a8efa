@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+.bg-custom {
+	background: #00796b;
+}
+
+.navbar .nav-item .nav-link {
+	font-size: larger;
+	font-family: sans-serif;
+	
+	color: white;
+}
