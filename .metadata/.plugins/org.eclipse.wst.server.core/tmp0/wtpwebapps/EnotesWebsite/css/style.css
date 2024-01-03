@@ -10,6 +10,7 @@
 	font-size: x-large;
 	font-weight: bolder;
 }
+
 .navbar-brand i {
 	margin-right: 10px;
 }
@@ -21,7 +22,7 @@
 	color: hsl(173, 58, 39);
 }
 
-.navbar-custom .nav-item:hover .nav-link{
+.navbar-custom .nav-item:hover .nav-link {
 	background: #264653;
 	color: white;
 	border-radius: 10px;
@@ -31,15 +32,18 @@
 	background: #F4A261;
 	color: rgb(38, 70, 83);
 }
+
 .btn i {
 	margin-right: 10px;
 }
+
 .btn:hover {
 	border-color: #F4A261;
 	border: 2px solid;
 	color: #F4A261;
 	font-weight: bold;
 }
+
 .btn-center {
 	border-color: #F4A261;
 	border: 2px solid;
@@ -47,15 +51,17 @@
 	font-weight: bold;
 	background-color: transparent;
 }
-.btn-center:hover{
+
+.btn-center:hover {
 	background: #F4A261;
 	color: rgb(38, 70, 83);
 }
+
 .navbar .nav-item .nav-link i {
 	margin-right: 10px;
 }
 
-#owner{
+#owner {
 	color: #E9C46A;
 	font-weight: bolder;
 	font-size: larger;
