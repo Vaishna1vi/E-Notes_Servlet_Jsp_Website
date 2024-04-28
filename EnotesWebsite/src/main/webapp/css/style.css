@@ -22,9 +22,9 @@
 	color: hsl(173, 58, 39);
 }
 
-.navbar-custom .nav-item:hover .nav-link {
+.navbar .nav-item .nav-link:hover {
 	background: #264653;
-	color: white;
+	color: #F4A261;
 	border-radius: 10px;
 }
 
@@ -68,6 +68,11 @@
 	font-style: italic;
 }
 
+.bg-navy {
+	background: #264653;
+}
+
 .footer p i {
 	color: #2A9D8F;
 }
+

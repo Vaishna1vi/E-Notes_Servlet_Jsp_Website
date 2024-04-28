@@ -27,13 +27,15 @@ public class LoginServlet extends HttpServlet {
 		us.setPassword(pwd);
 
 		UserDao dao = new UserDao(DBConnect.getConn());
-		boolean f = dao.loginUser(us);
+		UserDetails user = dao.loginUser(us);
 
-		if (f) {
+		if (user != null) {
+			HttpSession session = request.getSession();
+			session.setAttribute("currentUser", user);
 			response.sendRedirect("dashboard.jsp");
 		} else {
 			HttpSession session = request.getSession();
-			session.setAttribute("failed", "Invalid Credentials...");
+			session.setAttribute("failed", "Invalid Credentials...Try again or ");
 			response.sendRedirect("login.jsp");
 		}
 	}

@@ -28,7 +28,7 @@
 }
 </style>
 <meta charset="UTF-8">
-<title>E-Notes-Website</title>
+<title>Study-Scribe</title>
 <%@include file="allComponents/cdnFile.jsp"%>
 </head>
 <body>
@@ -37,8 +37,8 @@
 	<div class="back-img">
 		<div class="container-fluid text-center">
 			<h1 class="head">
-				<i class="fa-solid fa-book-open book-icon"></i> E Notes - A website
-				where you can take your notes
+				<i class="fa-solid fa-book-open-reader"></i> <span id="owner">
+					StudyScribe - </span> A website where you can take your self-notes
 			</h1>
 			<a class="btn btn-center m-5" href="login.jsp"><i
 				class="fa-solid fa-user-check"></i>Login</a> <a

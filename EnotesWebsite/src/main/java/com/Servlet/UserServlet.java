@@ -40,11 +40,9 @@ public class UserServlet extends HttpServlet {
 		} else {
 			// out.print("Data not inserted.");
 			session = req.getSession();
-			session.setAttribute("failed", "Something went wrong on server.");
+			session.setAttribute("failed", "Something went wrong on server. Try using different email...");
 			res.sendRedirect("register.jsp");
 		}
-		req.setAttribute("alertMsg", "Register/Login first...");
-		req.getRequestDispatcher("/navbar.jsp").forward(req, res);
-		//res.sendRedirect("navbar.jsp");
+		
 	}
 }
